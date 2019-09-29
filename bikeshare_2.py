@@ -210,6 +210,26 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
+         answer = input("Do you want to see raw data?")
+        if answer.lower() != 'yes':
+            break
+        else:
+            print(df.head())
+
+            counter=5
+            while True:
+                try:
+                    answer_more = (input("Do you want to see 5 more rows of data?"))
+                except:
+                    break
+                else:
+                    if answer_more.lower() == 'yes' :
+                        counter+=5
+                        print(df.head(counter))
+                    else:
+                        print('No more raw data to be displayed.')
+                        break
+
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
