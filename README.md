@@ -13,5 +13,8 @@ new_york_city.csv
 chicago.csv
 bikeshare_2.py
 
+### Contributing
+Pull requests are welcome. Please open an issue first to discuss what you would like to change.
+
 ### Credits
 [UDACITY](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
