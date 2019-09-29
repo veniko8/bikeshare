@@ -21,6 +21,7 @@ def get_filters():
     while True:
         try:
             city = (input("Which city are you interested in? Please choose from: chicago, new york city, washington : "))
+            city=city.lower()
         except:
             print("Oops!  That was not a valid city.  Try again...")
         else:
@@ -33,6 +34,7 @@ def get_filters():
     while True:
         try:
             month = (input("Which month are you interested in? (january, february, march, april, may, june or all)"))
+            month=month.lower()
         except:
             print("Oops!  That was not a valid month.  Try again...")
         else:
@@ -45,6 +47,7 @@ def get_filters():
     while True:
         try:
             day = (input("Which day are you interested in? (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or all)"))
+            day=day.lower()
         except:
             print("Oops!  That was not a valid day.  Try again...")
         else:
