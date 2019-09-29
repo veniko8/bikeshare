@@ -210,7 +210,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-         answer = input("Do you want to see raw data?")
+        answer = input("Do you want to see raw data?")
         if answer.lower() != 'yes':
             break
         else:
