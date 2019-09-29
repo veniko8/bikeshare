@@ -54,7 +54,7 @@ def get_filters():
             else:
                 print("Oops!  That was not a valid day.  Try again...")
 
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city, month and day with handeling exceptions
 
 
 
