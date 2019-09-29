@@ -51,7 +51,7 @@ def get_filters():
         except:
             print("Oops!  That was not a valid day.  Try again...")
         else:
-            if day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'all']:
+            if day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
                 print(day)
                 break
             else:
